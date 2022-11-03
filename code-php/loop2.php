@@ -1,9 +1,7 @@
 <?php
 $names = ['Andy', 'Betty', 'Carol'];
 
-$i = 0;
-while ($i < 3) {
+for($i = 0; $i < count($names); $i++){
     echo 'Hello';
     echo $names[$i] . PHP_EOL;
-    $i ++;
 }
