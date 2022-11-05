@@ -1,4 +1,4 @@
 <?php
-$string = 'Hello World';
-$sub =  substr($string, 6);
-echo $sub;
+$string = 'Andy,Betty,Carol';
+$array = explode(',',$string);
+print_r($array);
